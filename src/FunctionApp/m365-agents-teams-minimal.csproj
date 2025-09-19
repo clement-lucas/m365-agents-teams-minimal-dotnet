@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <AzureFunctionsVersion>v4</AzureFunctionsVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Azure.Functions.Worker" Version="1.24.0" />
+    <PackageReference Include="Microsoft.Azure.Functions.Worker.Extensions.Http" Version="3.1.0" />
+    <PackageReference Include="Microsoft.Azure.Functions.Worker.Extensions.Timer" Version="4.2.0" />
+    <PackageReference Include="Microsoft.Bot.Builder" Version="4.22.5" />
+    <PackageReference Include="Microsoft.Bot.Builder.Dialogs" Version="4.22.5" />
+    <PackageReference Include="Microsoft.Bot.Builder.Integration.AspNet.Core" Version="4.22.5" />
+    <PackageReference Include="Microsoft.Bot.Connector" Version="4.22.5" />
+    <PackageReference Include="Microsoft.Graph" Version="5.55.0" />
+    <PackageReference Include="Microsoft.Azure.Cosmos" Version="3.37.4" />
+    <PackageReference Include="Polly" Version="8.4.2" />
+  </ItemGroup>
+</Project>

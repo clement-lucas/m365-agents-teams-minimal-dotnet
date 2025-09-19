@@ -1,0 +1,23 @@
+{
+  "Bot": {
+    "MicrosoftAppId": "00000000-0000-0000-0000-000000000000",
+    "MicrosoftAppPassword": "<BOT_APP_PASSWORD>",
+    "TenantId": "00000000-0000-0000-0000-000000000000"
+  },
+  "OAuth": {
+    "ConnectionName": "TeamsSSO"
+  },
+  "Graph": {
+    "Scopes": "User.Read"
+  },
+  "Timer": {
+    "Cron": "0 */15 * * * *"
+  },
+  "Cosmos": {
+    "Endpoint": "https://<cosmos-account>.documents.azure.com:443/",
+    "Key": "<cosmos-key>",
+    "Database": "botdb",
+    "Container": "conversationRefs",
+    "ContainerThroughput": 400
+  }
+}

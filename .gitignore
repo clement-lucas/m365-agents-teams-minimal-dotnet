@@ -1,0 +1,8 @@
+.vscode/
+bin/
+obj/
+local.settings.json
+appsettings.json
+*.user
+*.swp
+*.swo
